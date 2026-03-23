@@ -22,4 +22,11 @@ A multi-layer Java test framework combining UI automation, API testing, and BDD.
 - Maven
 
 ## How to run
-```bash
+
+Run all tests:
+
+    mvn clean test
+
+Generate Allure report:
+
+    mvn allure:serve
